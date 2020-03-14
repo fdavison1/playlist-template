@@ -22,15 +22,15 @@ p {
     font-family: 'Lacquer', sans-serif;
     padding: 0;
     margin: 0;
-    margin-bottom: 55px;
-    font-size: 8.75rem;
+    font-size: 8.6rem;
+    margin-top: 65px;
 }
 img {
     height: 35px;
     width: 60px;
-    position: absolute;
-    bottom: 225px;
-    right: 535px;
+    position: relative;
+    margin-top: 110px;
+    margin-left: 315px;
 }`
 
 export default class Display extends React.Component{
@@ -38,7 +38,7 @@ export default class Display extends React.Component{
         return(
             <Wrapper>
                 <div className="box">
-                    <p>[FEB]</p>
+                    <p>[DEC]</p>
                     <img src={advisory} alt=""/>
                 </div>
             </Wrapper>
