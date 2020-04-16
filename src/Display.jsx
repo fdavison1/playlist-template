@@ -38,7 +38,7 @@ export default class Display extends React.Component{
         return(
             <Wrapper>
                 <div className="box">
-                    <p>[DEC]</p>
+                    <p>[MAY]</p>
                     <img src={advisory} alt=""/>
                 </div>
             </Wrapper>
